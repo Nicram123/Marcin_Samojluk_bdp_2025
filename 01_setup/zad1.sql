@@ -1,2 +1,4 @@
-Editting fjf
+CREATE DATABASE firma;
+
+
 
