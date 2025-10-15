@@ -48,7 +48,7 @@ FROM buildings b
 WHERE ST_Y(ST_Centroid(b.geometry)) >
       ST_YMax((SELECT geometry FROM roads WHERE name='RoadX'));
 
--- h
+--  h
 
 -- Symetryczna różnica to obszar, który jest częścią jednego z wielokątów, ale nie jest częścią obu.
 SELECT 
