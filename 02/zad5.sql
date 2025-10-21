@@ -11,7 +11,7 @@ INSERT INTO buildings (name, geometry) VALUES
 ('BuildingF', ST_GeomFromText('POLYGON((1 1, 2 1, 2 2, 1 2, 1 1))', 0));
 
 INSERT INTO roads (name, geometry) VALUES
-('RoadY', ST_GeomFromText('LINESTRING(-7.5 0, 7.5 0)')),
+('RoadY', ST_GeomFromText('LINESTRING(7.5 0, 7.5 10.5)')),
 ('RoadX', ST_GeomFromText('LINESTRING(0 4.5, 12 4.5)'));
 
 
