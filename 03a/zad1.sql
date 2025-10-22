@@ -13,3 +13,4 @@ JOIN T2018_KAR_BUILDINGS b2018
   ON b2019.polygon_id = b2018.polygon_id
 WHERE b2019.height != b2018.height
    OR NOT ST_Equals(b2019.geom, b2018.geom);
+
